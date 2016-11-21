@@ -1,0 +1,27 @@
+body {
+    font-family: 'Over the Rainbow', cursive;
+    text-align: center;
+}
+
+.surrounded {
+    margin-top: 5%;
+    padding: 5%;
+    background-color: #101010;
+    border-radius: 25px;
+}
+
+span.t {
+    font-size: 400%;
+    color: #fff;
+}
+
+.heart {
+    color: #b20e0e;
+	animation: beat .60s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.07); }
+}

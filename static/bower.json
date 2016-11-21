@@ -1,0 +1,21 @@
+{
+  "name": "static",
+  "authors": [
+    "Cesar A. Garcia <mrcesar9402@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.97.8",
+    "components-font-awesome": "^4.7.0"
+  }
+}
